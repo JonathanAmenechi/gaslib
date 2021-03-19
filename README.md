@@ -3,12 +3,14 @@ lightweight lib for pulling gas prices from various providers
 
 ## Usage
 
-`import {GasLib} from "gaslib";
+`import {GasLib} from "gaslib";`
 
-const provider = await GasLib.getProvider("gasnow");
+`//initialize the provider`
 
-var fast = await provider.getFast();
-var standard = await provider.getStandard();
+`const provider = await GasLib.getProvider("gasnow");`
 
-Gaslib.getGasPrice("ethgasstation", "safelow", apiKey=xxxx);
-`
+`await provider.getGasPrice("fast");`
+
+`await provider.getStandard();`
+
+`Gaslib.getGasPrice("ethgasstation", "safelow", apiKey=xxxx);`
