@@ -1,0 +1,27 @@
+{
+  "name": "gaslib",
+  "version": "1.0.0",
+  "description": "lightweight lib for pulling gas prices from various providers",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "follow-redirects": "^1.13.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanAmenechi/gaslib.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanAmenechi/gaslib/issues"
+  },
+  "homepage": "https://github.com/JonathanAmenechi/gaslib#readme",
+  "directories": {
+    "test": "tests"
+  }
+}
