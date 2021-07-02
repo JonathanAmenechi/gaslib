@@ -1,11 +1,10 @@
-import {GasnowProvider} from "./gasnow-provider.js";
-import {GasstationProvider} from "./ethgasstation-provider.js";
+import { GasnowProvider } from "./gasnow-provider.js";
+import { GasstationProvider } from "./ethgasstation-provider.js";
+import { MaticGasStationProvider } from "./matic-gasstation-provider";
 
-
-//TODO: Add more providers
 
 export const GAS_PROVIDERS = {
-    "etherscan": null, //TODO
     "gasnow": GasnowProvider,
-    "ethgasstation": GasstationProvider
+    "ethgasstation": GasstationProvider,
+    "maticgasstation": MaticGasStationProvider,
 }

@@ -18,17 +18,3 @@ export class GasLib {
         }
     }
 }
-
-// export async function getGasPrice(source, speed, apiKey=null){
-//     const provider = await getGasProvider(source, apiKey);
-//     if(provider != null){
-//         return await provider.getGasPrice(speed);
-//     }
-// }
-
-// export async function getGasProvider(source, apiKey=null){
-//     var normalized = normalize(source);
-//     if(PROVIDERS[normalized] != null) {
-//         return await new PROVIDERS[normalized](apiKey);
-//     }
-// }
